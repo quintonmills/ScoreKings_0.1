@@ -28,7 +28,7 @@ export default function TabLayout() {
         options={{
           title: 'Draft',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
+            <TabBarIcon name={focused ? 'stopwatch' : 'stopwatch-outline'} color={color} />
           ),
         }}
       />
